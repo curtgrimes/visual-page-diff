@@ -4,6 +4,8 @@ A Node.js script for running arbitrary JavaScript against a set of pages and com
 
 ## Usage
 
+You will need to [install Node.js](https://nodejs.org/en/download/) before continuing.
+
 1. Clone this repository.
 1. Run `npm install`.
 1. Use [index.js](index.js) as a starting point and edit it.
