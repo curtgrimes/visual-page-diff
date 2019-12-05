@@ -71,11 +71,11 @@ HTMLPageDiff({
 
 After running, if there are any diffs, a new `diffs` folder will contain images. If `saveBeforeAfter` is `true`, diffs will also contain the before and after images for each page that has a diff. In the example above, each `h2`, `h3`, and `h4` is set to `color: blue`. Files are named based off of their original URLs.
 
-- financial-aid-before.png
+- financial-aid-before.png  
   ![](screenshots/financial-aid-before.png)
 
-- financial-aid-after.png
+- financial-aid-after.png  
   ![](screenshots/financial-aid-after.png)
 
-- financial-aid.png (diff)
+- financial-aid.png (diff)  
   ![](screenshots/financial-aid.png)
