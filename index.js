@@ -3,7 +3,7 @@ const HTMLPageDiff = require("./lib/HTMLPageDiff");
 HTMLPageDiff({
   // Optional. If Chrome can't automatically be detected, place
   // the Chrome or Chromium executable path here.
-  executablePath: "/usr/bin/google-chrome",
+  // executablePath: "/usr/bin/google-chrome",
 
   // Whether or not to also save before and after screenshots
   // in addition to the visual diff if a difference is detected
