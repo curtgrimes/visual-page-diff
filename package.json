@@ -1,0 +1,25 @@
+{
+  "name": "html-page-diff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curtgrimes/html-page-diff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curtgrimes/html-page-diff/issues"
+  },
+  "homepage": "https://github.com/curtgrimes/html-page-diff#readme",
+  "dependencies": {
+    "pixelmatch": "^5.1.0",
+    "pngjs": "^3.4.0",
+    "puppeteer": "^2.0.0",
+    "sharp": "^0.23.3"
+  }
+}
