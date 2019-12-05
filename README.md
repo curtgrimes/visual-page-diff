@@ -2,6 +2,11 @@
 
 A Node.js script for running arbitrary JavaScript against a set of pages and comparing before and after screenshots of each page for changes. Uses [Puppeteer](https://github.com/puppeteer/puppeteer) to take screenshots of pages in a headless Chrome instance and [Pixelmatch](https://github.com/mapbox/pixelmatch) to compare screenshots.
 
+## Installation
+
+1. Clone this repository.
+1. Run `npm install`.
+
 ## Usage
 
 Use [index.js](index.js) as a starting point. Run index.js using Node with a command like `node index.js`. Diffs (if any) will be generated and placed in a diffs folder. The console will show progress and indicate if any diffs were found.
@@ -14,7 +19,7 @@ const HTMLPageDiff = require("./lib/HTMLPageDiff");
 HTMLPageDiff({
   // Optional. If Chrome can't automatically be detected, place
   // the Chrome or Chromium executable path here.
-  executablePath: "/usr/bin/google-chrome",
+  // executablePath: "/usr/bin/google-chrome",
 
   // Whether or not to also save before and after screenshots
   // in addition to the visual diff if a difference is detected
